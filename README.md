@@ -1,10 +1,10 @@
-# Validate contact form
-A Microverse exercise to use animation on a website
+# My portfolio
+I add animation to my portfolio
 <a name="readme-top"></a>
 
 <div align="center">
 
-  <h3><b>Validate contact form</b></h3>
+  <h3><b>Portfolio</b></h3>
 
 </div>
 
@@ -32,7 +32,7 @@ A Microverse exercise to use animation on a website
 <!-- PROJECT DESCRIPTION -->
 # 📖Validate contact form<a name="about-project"></a>
 
-> **Validate contact form** is a starter exercise to create a portfolio website that can be used by multiple
+> **Validate contact form** I create my portfolio website that can be used by multiple
 devices by listing the portfolio projects. And also using CSS animation makes the website more interactive. 
 It is based on specific settings and requirements to ensure proper structure and best practices. 
 By cloning this repo and running `npm install` we will have a basic portfolio with properly configured linters,  
@@ -125,12 +125,6 @@ To run the linters before committing any changes to your code, execute the follo
 - GitHub: [@Gardimy](https://github.com/Gardimy)
 - Twitter: [@gardyelontiga45](https://twitter.com/gardyelontiga45)
 - LinkedIn: [Gardimy charles](https://www.linkedin.com/in/gardimy-charles)
-
-> 👤 **Mahmudur Rahman**
-
-- GitHub: [@MoyasiGinko](https://github.com/MoyasiGinko)
-- LinkedIn: [@mahmudur-rahman-a8a151257](https://www.linkedin.com/in/mahmudur-rahman-a8a151257/)
-- Twitter: [@moyasi_ginko](https://twitter.com/moyasi_ginko)
 
 <!-- FUTURE FEATURES -->
 
