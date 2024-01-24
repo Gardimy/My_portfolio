@@ -30,9 +30,9 @@ I add animation to my portfolio
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
-# 📖Validate contact form<a name="about-project"></a>
+# 📖Desktop version<a name="about-project"></a>
 
-> **Validate contact form** I create my portfolio website that can be used by multiple
+> **Desktop** I create my portfolio website that can be used by multiple
 devices by listing the portfolio projects. And also using CSS animation makes the website more interactive. 
 It is based on specific settings and requirements to ensure proper structure and best practices. 
 By cloning this repo and running `npm install` we will have a basic portfolio with properly configured linters,  
