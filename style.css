@@ -235,6 +235,7 @@ span {
   box-shadow: none;
 }
 
+
 .about-img {
   color: var(--second-bg-color);
   font-size: 3.6rem;
@@ -278,7 +279,11 @@ span {
   text-align: center;
   font-size: 1.6rem;
   line-height: 2.5rem;
-  margin: 2rem 0 3rem;
+  margin: 2rem 0 0;
+}
+
+#moreDetails {
+  display: none;
 }
 
 .languages-details {

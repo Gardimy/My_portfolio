@@ -1,3 +1,6 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable no-mixed-spaces-and-tabs */
+/* eslint-disable no-tabs */
 /* eslint-disable prefer-arrow-callback */
 /* eslint-disable func-names */
 /* eslint-disable linebreak-style */
@@ -19,3 +22,16 @@ document.addEventListener('DOMContentLoaded', function () {
     frameworksList.classList.toggle('show');
   });
 });
+
+function toggleDetails() {
+  const moreDetails = document.getElementById('moreDetails');
+  const btn = document.querySelector('.btn');
+
+  if (moreDetails.style.display === 'none') {
+	  moreDetails.style.display = 'block';
+	  btn.innerHTML = 'Read Less';
+  } else {
+	  moreDetails.style.display = 'none';
+	  btn.innerHTML = 'Read More';
+  }
+}
