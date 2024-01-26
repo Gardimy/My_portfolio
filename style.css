@@ -296,22 +296,24 @@ span {
 .languagesn {
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  padding: 24px 0 24px 12px;
+  font-size: 3rem;
+  line-height: 4rem;
+ 
 }
 
 .arrow {
   border: solid #acb7c3;
   border-width: 0 3px 3px 0;
   display: block;
-  padding: 5px;
+  padding: 6px;
   margin-right: 10px;
 }
 
 .down {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
+  cursor: pointer;
+  font-size: 5rem;
 }
 
 .right {
@@ -320,19 +322,31 @@ span {
 }
 
 .languages-list {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.languages-list.show {
   display: flex;
-  flex-direction: column;
-  list-style: none;
-  padding: 12px;
-  margin: 0;
-  gap: 12px;
+  opacity: 1;
+  animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .languages-Icon {
   display: flex;
   align-items: center;
   background: #f7f7f9;
-  border-radius: 8px;
+  border-radius: 6rem;
   padding-left: 14px;
 }
 
@@ -366,6 +380,18 @@ span {
 
 .Icons {
   width: 20%;
+}
+
+.languages-list {
+  display: none;
+}
+
+.languages-list.show {
+  display: block;
+}
+
+.bxl-bootstrap {
+  color: #563d7c;
 }
 
 .name {
