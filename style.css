@@ -658,3 +658,18 @@ span {
     margin-top: 2rem;
   }
 }
+
+.warning {
+  width: 80%;
+  top: -7px;
+  font-size: 80%;
+  color: white;
+  background-color: darkred;
+  border-radius: 0 0 5px 5px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.warning.active {
+  padding: 0.3em;
+}
