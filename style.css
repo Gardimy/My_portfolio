@@ -281,6 +281,107 @@ span {
   margin: 2rem 0 3rem;
 }
 
+.languages-details {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.languages {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.languagesn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 24px 0 24px 12px;
+}
+
+.arrow {
+  border: solid #acb7c3;
+  border-width: 0 3px 3px 0;
+  display: block;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.languages-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 12px;
+  margin: 0;
+  gap: 12px;
+}
+
+.languages-Icon {
+  display: flex;
+  align-items: center;
+  background: #f7f7f9;
+  border-radius: 8px;
+  padding-left: 14px;
+}
+
+.bxl-javascript {
+  color: #f0db4f;
+}
+
+.bxl-html5 {
+  color: #e34f26;
+}
+
+.bxl-css3 {
+  color: #2965f1;
+}
+
+.bxl-react {
+  color: #61dbfb;
+}
+
+.bxl-redux {
+  color: #764abc;
+}
+
+.bxl-c-plus-plus {
+  color: #00599c;
+}
+
+.bxl-postgresql {
+  color: #336791;
+}
+
+.Icons {
+  width: 20%;
+}
+
+.name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
+  padding: 24px 0 24px 16px;
+  margin: 0;
+}
+
+.line {
+  border-bottom: 1px solid #dfe1e6;
+}
+
 .heading2 {
   font-size: 4.5rem;
   text-align: center;
