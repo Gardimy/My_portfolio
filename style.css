@@ -63,6 +63,22 @@ section {
   transition: 0.3s;
 }
 
+.connect {
+  width: 130px;
+  height: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--main-color);
+  margin: 0;
+  line-height: 24px;
+  padding-top: 16px;
+  cursor: pointer;
+}
+
 .social-media a {
   display: inline-flex;
   justify-content: center;
@@ -460,11 +476,16 @@ span {
     font-size: 2.2rem;
   }
 
+  .connect {
+    font-size: 1.4rem;
+	padding: 1rem 1.2rem;
+  }
+
   .social-media a {
     width: 3.5rem;
     height: 3.5rem;
     font-size: 1.8rem;
-    margin: 2rem 1rem 2rem 0;
+    margin: 2rem 1rem;
   }
 
   .header .navbar a {
