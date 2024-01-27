@@ -504,12 +504,12 @@ span {
 
 .portfolio-layer h4 {
   font-size: 2rem;
-  color: var(--text-color);
+  color: var(--bg-color);
 }
 
 .portfolio-layer p {
   font-size: 1.3rem;
-  color: var(--text-color);
+  color: black;
 }
 
 .styled-list {
@@ -522,7 +522,7 @@ span {
 .styled-list-item {
   background: var(--second-bg-color); /* Adjust the background color as needed */
   color: #ffffff; /* Adjust the text color as needed */
-  padding: 5px;
+  padding: 3px;
   border-radius: 3px;
 }
 
@@ -536,12 +536,12 @@ span {
 .portfolio-box .portfolio-links {
   display: flex;
   gap: 1rem;
-  margin-top: 4px;
+  margin-top: 2px;
 }
 
 .portfolio-box .portfolio-links a {
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .contact h2 {
