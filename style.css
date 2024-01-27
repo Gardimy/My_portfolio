@@ -50,10 +50,15 @@ section {
 }
 
 .logo {
-  font-size: 2.5rem;
-  font-weight: 600;
+  font-size: 1.5rem;
+  font-weight: 400;
   color: var(--text-color);
   cursor: default;
+}
+
+.bxl-gmail {
+  color: #d14836;
+  font-size: 2.5rem;
 }
 
 .navbar a {
